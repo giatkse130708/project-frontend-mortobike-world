@@ -1,0 +1,20 @@
+
+.time {font-size: 0.7em; color: #B5B5B5;}
+.item table td h2, p{margin-top: 0px; font-family: "Times New Roman", Times, serif;}
+.item table h2{font-weight: bold}
+.item table th, td{ vertical-align: top;}
+.item a{color: black; text-decoration: none;}
+.item a:hover{color:blue;}
+/*----------RESPONSIVE-----------*/
+
+@media only screen and (max-width: 640px){
+	.item table td img{width:100%; height: auto;}
+	.item table td h2{font-size: 1.05em}
+	.displayItem{display: none;}
+	.item table th,td{ padding: 5px 5px 5px 1px; }
+}
+
+@media only screen and (min-width: 641px){
+	.item table th,td{ padding: 10px 10px 10px 2px; }
+	.item table td p{font-size: 1.2em}
+}

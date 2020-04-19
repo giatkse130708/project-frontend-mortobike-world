@@ -1,0 +1,20 @@
+
+.about {margin-left: 2px; margin-right: 2px;}
+
+.about h1{text-align: center;}
+
+.about p{font-family: "Times New Roman", Times, serif; text-align: justify;}
+
+/*----------RESPONSIVE-----------*/
+
+@media only screen and (max-width: 640px){
+	.about h1{font-size: 2em}
+	.about p{font-size: 1em}
+	.about img{ width:100%; height: auto;}
+}
+
+@media only screen and (min-width: 641px){
+
+	.about p{font-size: 1.2em}
+	.about img{ width:450px; height: 250px;}
+}

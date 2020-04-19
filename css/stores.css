@@ -1,0 +1,25 @@
+
+.label {
+	float: left;
+	width: 100%;
+	font-weight: bold; 
+	border: 1px solid #EAEAEA;
+	padding: 5px 0px 5px 5px;
+	background-image: url(../images/background_title-1.jpg);
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0px;
+	color: black;
+	font-size: 1.5em;
+	}
+.groupStore{height: auto; float: left; padding: 5px;}
+p{font-family: "Times New Roman", Times, serif;}
+/*----------RESPONSIVE-----------*/
+
+@media only screen and (max-width: 640px){
+	.groupStore{width: 100%;}
+}
+
+@media only screen and (min-width: 641px){
+	.label{ font-size: 1.5em;}
+	.groupStore{width: 30%;
+}

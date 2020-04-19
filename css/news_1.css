@@ -1,0 +1,34 @@
+
+.time {font-size: 0.7em; color: #B5B5B5;}
+
+article {text-align: justify;}
+
+article img{width: 100%; height: auto;}
+
+article h2{font-weight: bold;}
+
+article p {font-family: "Times New Roman", Times, serif;}
+
+aside img{width:100%; height: auto;}
+
+aside table td h2{font-size: 0.9em; margin-top:0px; vertical-align: top;}
+
+aside table th,td{ padding: 5px 5px 5px 0px; }
+
+aside table th, td{ vertical-align: top;}
+
+@media only screen and (max-width: 640px){
+	article, aside{margin:0 auto;}
+	article{width: 97%; padding-bottom: 5px;}
+	aside{width:97%;}
+	article h2{font-size: 1.4em;}
+}
+
+@media only screen and (min-width: 641px){
+	article{width: 70%; float: left; padding-bottom: 15px;}
+	aside{
+	width:29%;
+	float:right;
+	}
+	article h2{font-size: 2.0em;}
+}

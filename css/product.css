@@ -1,0 +1,37 @@
+
+
+body{
+	border-left: 1px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #EAEAEA;
+}
+
+.product{margin: 0px 2px 2px 2px;}
+
+.product h2 {
+	float: left;
+	width: 100%;
+	font-weight: bold; 
+	border: 1px solid #EAEAEA;
+	padding: 5px 0px 5px 5px;
+	background-image: url(../images/background_title-1.jpg);
+	font-family: "Times New Roman", Times, serif;
+	border-radius: 5px;
+	}
+.product h3, h4 {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.product p {text-align: justify; font-family: "Times New Roman", Times, serif;}
+
+/*----------RESPONSIVE-----------*/
+
+@media only screen and (max-width: 640px){
+	.product img {width: 100%; height: auto;}
+	.product input {float: right;}
+}
+
+@media only screen and (min-width: 641px){
+
+}
